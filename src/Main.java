@@ -47,7 +47,7 @@ public class Main {
 
     private static void task3() {
         int deliveryDistance = 10;
-        if (deliveryDistance <= 100) {
+        if (deliveryDistance <= 100 && deliveryDistance >= 0) {
             System.out.println("Потребуется дней: " + deliveryDay(deliveryDistance));
         } else {
             System.out.println("Доставка невозможна.");
